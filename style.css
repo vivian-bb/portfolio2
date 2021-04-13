@@ -8,6 +8,20 @@
 }
 
 /* navbar section */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    /* background: crimson; */
+    font-family:'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky{
+    padding: 0;
+    background: crimson;
+
+}
 
 .header-box{
     border:  rgb(189, 27, 211) solid 3px;
@@ -17,17 +31,18 @@
 }
 .header-box .logo{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 25px;
-    padding-top: 20px;
+    font-size: 40px;
+    padding-top: 15px;
     padding-left: 30px;
 }
 .header-box a{
     color: white;
+    font-weight: 600;
 }
 .header-box a span{
-    color: black;
+    color: rgb(10,11,14,0.8);
+    font-weight: 600;
 }
-
 
 /* sidebar section */
 
@@ -35,9 +50,9 @@
     border: turquoise solid 3px;
     position: fixed;
     background:rgb(167,15,21,0.6);
-    width: 200px;
+    width: 180px;
     height: 100%;
-    margin-top: 0px;
+    margin-top: 80px;
 }
 .side-menu .menu-container{
     margin-top: 180px;
@@ -85,7 +100,7 @@ body{
     justify-content: space-around;
     max-width: 1300px;
     padding-top: 300px;
-    margin-left: 200px;
+    margin-left: 180px;
 }
 
 #image {
@@ -129,3 +144,65 @@ body{
 }
 /* skill section */
 
+.skill-content{
+    border: white solid 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 1300px;
+    padding:200px;
+    margin-left: 180px;
+    background:rgb(255,255,255,0.4);
+    font-family: 'Ubuntu', sans-serif;;
+    color:white;
+}
+
+.skill-content .p-text1 .one{
+    border: white solid 1px;
+    font-style: bold;
+    padding:20px;
+    font-size:50px;
+}
+.skill-content .p-text2{
+    border: white solid 1px;
+    padding: 30px;
+    font-size: 25px;
+    line-height: 1.5em;
+  
+  
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
