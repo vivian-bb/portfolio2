@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css"
         integrity="sha384-GJZaA6m6lChs58VwbLe6osI303dI9fFbBCRjkbJiUhhrL/I8Xl2I3ygRB7Iyb5C8~/portfolio ">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/sidebarstyle.css">
     <title>Vivian's Portfolio</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -16,13 +15,20 @@
 
 <body>
 
-    <!-- navbar section -->
+    <!-- header section -->
 
     <nav class="navbar">
         <div class="header-box">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <div id="logo-fabars">
+                <div id="logo"><a id="logo" href="#">Vivian's Portfo<span>lio. </span></a></div>
+                <div class="fabars">
+                    <div></div>
+                    <div id="fa-bars"><a href="#"><i class="fa fa-bars"></i></a></div>
+                </div>
+            </div>
+        </div>
     </nav>
-
+    <!-- navbar section -->
     <div class="side-menu">
 
         <div class="menu-container"><a href="#"><i class="fa fa-home"></i><span>Home</span></a>
@@ -36,27 +42,30 @@
     <!-- home section -->
 
     <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Vivian Zhang</div>
-                <div class="text-3">And I'm a <span>Web Developer</span></div>
-            </div>
-            <div>
-                <img id="image" src="/picture/circle-cropped.png" alt="mypicture">
-            </div>
+        <div class="home-content " ">
+            <div class=" home-text">
+            <div class="text-1">Hello, my name is</div>
+            <div class="text-2">Vivian Zhang</div>
+            <div class="text-3">And I'm a <span>Web Developer</span></div>
+        </div>
+        <div class="image">
+            <img src="/picture/circle-cropped.png" alt="mypicture">
+        </div>
         </div>
     </section>
 
-    <!-- skill section -->
-    <section class="skill" id="skill">
-        <div class="skill-content">
+    <!-- description section -->
+    <section class="description" id="description">
+        <div class="description-content">
             <div class="p-text1">
-                <p class="one">About me</p>
+                <p>About me</p>
             </div>
+            <hr class="dotted">
             <div class="p-text2">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta odio eligendi aliquid rem, vero
-                    dignissimos velit itaque eum quae animi non ipsum hic sed odit in quam eveniet. Ipsam, vitae.</p>
+                <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ab amet. Saepe
+                    vitae iusto
+                    officia iste, enim debitis quaerat quasi ut distinctio voluptatem! Voluptas deserunt vel sed
+                    assumenda, mollitia dignissimos!</p>
                 <br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus eligendi labore deleniti itaque
                     distinctio quod tempore magnam dolor assumenda? Laborum commodi cupiditate nisi neque? Nostrum nulla
@@ -64,8 +73,29 @@
             </div>
         </div>
     </section>
+    <!-- project section -->
+    <div class="projects">
+
+        <div class="proj-1">
+            <div><a href="#"><img src="/picture/projectpic-h1.png" alt=""> </a></div>
+            <div><a href="#"><span>Project One</span></a></div>
+        </div>
+        <div class="proj-1">
+            <div><a href="#"><img src="/picture/projectpic-h2.png" alt=""></a></div>
+            <div><a href="#"><span>Project Two</span></a></div>
+        </div>
+        <div class="proj-1">
+            <div><a href="#"><img src="/picture/projectpic-h3.png" alt=""></a></div>
+            <div><a href="#"><span>Project Three</span></a></div>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
 
 </body>
+
 
 
 
