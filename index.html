@@ -5,98 +5,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"
-        integrity="sha384-GJZaA6m6lChs58VwbLe6osI303dI9fFbBCRjkbJiUhhrL/I8Xl2I3ygRB7Iyb5C8~/portfolio ">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Vivian's Portfolio</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 
 <body>
 
-    <!-- header section -->
+    <div class="bgimg">
+        <input type="checkbox" id="menu">
+        <!-- header section -->
+        <nav class="navbar">
+            <label><a href="#">Portfo<span>lio. </span></a></label>
+            <label for="menu" class="menu-bar">
+                <i class="fa fa-bars"></i>
+            </label>
+        </nav>
 
-    <nav class="navbar">
-        <div class="header-box">
-            <div id="logo-fabars">
-                <div id="logo"><a id="logo" href="#">Vivian's Portfo<span>lio. </span></a></div>
-                <div class="fabars">
-                    <div></div>
-                    <div id="fa-bars"><a href="#"><i class="fa fa-bars"></i></a></div>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- navbar section -->
-    <div class="side-menu">
+        <div class="side-menu">
+            <!-- home section -->
 
-        <div class="menu-container"><a href="#"><i class="fa fa-home"></i><span>Home</span></a>
+            <center><img src="/picture/circle-cropped.png" alt="mypicture">
+                <br><br>
+                <h2>Vivian Zhang</h2>
+            </center>
+            <br>
+            <!-- navbar section -->
+            <a href="#"><i class="fa fa-home"></i><span>Home</span></a>
             <a href="skill.html"><i class="fa fa-cog"></i><span>Skills</span></a>
             <a href="projects.html"><i class="fa fa-sellsy"></i><span>Projects</span></a>
             <a href="resume.html"><i class="fa fa-user"></i><span>Resume</span></a>
             <a href="contact_me.html"><i class="fa fa-envelope"></i><span>Contact me</span></a>
+
         </div>
-    </div>
-
-    <!-- home section -->
-
-    <section class="home" id="home">
-        <div class="home-content " ">
+        <div class="data">
+            <!-- Greeting -->
             <div class=" home-text">
-            <div class="text-1">Hello, my name is</div>
-            <div class="text-2">Vivian Zhang</div>
-            <div class="text-3">And I'm a <span>Web Developer</span></div>
-        </div>
-        <div class="image">
-            <img src="/picture/circle-cropped.png" alt="mypicture">
-        </div>
-        </div>
-    </section>
-
-    <!-- description section -->
-    <section class="description" id="description">
-        <div class="description-content">
-            <div class="p-text1">
-                <p>About me</p>
+                <div class="text-1">Hello, </div><br>
+                <div class="text-1-1">my name is</div>
+                <div class="text-2">Vivian Zhang</div>
+                <div class="text-3">And I'm a <span>Web Developer</span></div>
             </div>
-            <hr class="dotted">
-            <div class="p-text2">
-                <p><span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ab amet. Saepe
-                    vitae iusto
-                    officia iste, enim debitis quaerat quasi ut distinctio voluptatem! Voluptas deserunt vel sed
-                    assumenda, mollitia dignissimos!</p>
-                <br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus eligendi labore deleniti itaque
-                    distinctio quod tempore magnam dolor assumenda? Laborum commodi cupiditate nisi neque? Nostrum nulla
-                    voluptas consectetur autem.</p>
+
+        </div>
+
+
+
+
+        <!-- description section -->
+        <section class="description col-6 col-s-9" id="description">
+            <div class="description-content">
+                <div class="p-text1">
+                    <p>About me</p>
+                </div>
+                <hr class="dotted">
+                <div class="p-text2">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ab amet. Saepe
+                        vitae iusto
+                        officia iste, enim debitis quaerat quasi ut distinctio voluptatem! Voluptas deserunt vel sed
+                        assumenda, mollitia dignissimos!</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus eligendi labore deleniti
+                        itaque
+                        distinctio quod tempore magnam dolor assumenda? Laborum commodi cupiditate nisi neque? Nostrum
+                        nulla
+                        voluptas consectetur autem.</p>
+                </div>
+            </div>
+        </section>
+        <!-- project section -->
+        <div class="projects">
+
+            <div class="proj-1">
+                <div><a href="projects.html"><img src="/picture/projectpic-h1.png" alt=""> </a></div>
+                <div><a href="projects.html"><span>Project One</span></a></div>
+            </div>
+            <div class="proj-1">
+                <div><a href="projects.html"><img src="/picture/projectpic-h2.png" alt=""></a></div>
+                <div><a href="projects.html"><span>Project Two</span></a></div>
+            </div>
+            <div class="proj-1">
+                <div><a href="projects.html"><img src="/picture/projectpic-h3.png" alt=""></a></div>
+                <div><a href="projects.html"><span>Project Three</span></a></div>
             </div>
         </div>
-    </section>
-    <!-- project section -->
-    <div class="projects">
 
-        <div class="proj-1">
-            <div><a href="#"><img src="/picture/projectpic-h1.png" alt=""> </a></div>
-            <div><a href="#"><span>Project One</span></a></div>
-        </div>
-        <div class="proj-1">
-            <div><a href="#"><img src="/picture/projectpic-h2.png" alt=""></a></div>
-            <div><a href="#"><span>Project Two</span></a></div>
-        </div>
-        <div class="proj-1">
-            <div><a href="#"><img src="/picture/projectpic-h3.png" alt=""></a></div>
-            <div><a href="#"><span>Project Three</span></a></div>
-        </div>
+        <footer>
+            <div></div>
+        </footer>
     </div>
-
-    <footer>
-
-    </footer>
-
 </body>
-
-
-
 
 </html>
