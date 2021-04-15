@@ -17,10 +17,9 @@
 <body>
 
     <!-- navbar section -->
-
     <nav class="navbar">
         <div class="header-box">
-            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <div class="logo"><a href="index.html">Vivian's Portfo<span>lio.</span></a></div>
     </nav>
 
     <div class="side-menu">
@@ -31,5 +30,37 @@
             <a href="resume.html"><i class="fa fa-user"></i><span>Resume</span></a>
             <a href="contact_me.html"><i class="fa fa-envelope"></i><span>Contact me</span></a>
         </div>
+    </div>
+
+    <div class="form-section">
+        <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}"
+            method="post">
+            <fieldset id="fs-frm-inputs">
+                <div class="col-25">
+                    <label for="full-name">Full Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                </div>
+                <div class="col-25">
+                    <label for="email-address">Email Address</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                </div>
+                <div class="col-25">
+                    <label for="message">Message</label>
+                </div>
+                <textarea rows="5" name="message" id="message" placeholder="Please leave your Message here."
+                    required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <div class="row">
+                <center><input type="submit" value="Submit"></center>
+            </div>
+        </form>
+        <style>
+
+        </style>
     </div>
 </body>
